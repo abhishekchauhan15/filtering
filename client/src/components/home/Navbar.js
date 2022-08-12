@@ -33,6 +33,7 @@ const Navbar = () => {
     
     
   return (
+    <div style={{backgroundColor:"#FFFF"}}>
     <Component>
       {catogeries.map((catogery) => {
           return (
@@ -42,7 +43,8 @@ const Navbar = () => {
           </Container>
         );
       })}
-    </Component>
+      </Component>
+      </div>
   );
 };
 
