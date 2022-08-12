@@ -5,8 +5,9 @@ const Home = () => {
 
   useEffect(() => {
     const fetchCatogeries = async () => {
-      const res = await fetch('http://localhost:8000/api/data')
+      const res = await fetch('/api/data')
       const data = await res.json()
+      console.log(data);
       setCatogeries(data)
     }
     fetchCatogeries()
@@ -19,9 +20,7 @@ const Home = () => {
         catogeries.map(catogery => {
           return (
             <div key={catogery.id}>
-              <h1>{catogery.name}</h1>
-              yo
-              {/* <p>{catogery.description}</p> */}
+              <h1>{catogery.catogeries}</h1>
             </div>
           )
         }
