@@ -6,8 +6,14 @@ const data = [
     brand: "Apple",
     discount: "12%",
     rating: "4.5",
-    discription:
-      "A14 Bionic rockets past every other smartphone chip. The Pro camera system takes low-light photography to the next level — with an even bigger jump on iPhone 12 Pro Max. And Ceramic Shield delivers four times better drop performance. Let’s see what this thing can do.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹119900",
 
     image: [
@@ -32,8 +38,14 @@ const data = [
     brand: "realme",
     discount: "21%",
     rating: "4.5",
-    discription:
-      "High-speed internet, smooth gaming, and stunning photos, the realme Narzo Pro 5G is a power-packed smartphone for impressive performance. This smartphone features the 5G Technology for high-speed web browsing, the Dimensity 700 5G Processor for smooth gaming, and a 5000 mAh Massive Battery for hours of uninterrupted performance.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹15,990",
 
     image: [
@@ -72,8 +84,14 @@ const data = [
     brand: "POCO",
     discount: "23%",
     rating: "4.5",
-    discription:
-      "High-speed internet, smooth gaming, and stunning photos, the realme Narzo Pro 5G is a power-packed smartphone for impressive performance. This smartphone features the 5G Technology for high-speed web browsing, the Dimensity 700 5G Processor for smooth gaming, and a 5000 mAh Massive Battery for hours of uninterrupted performance.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹11,499",
 
     image: [
@@ -117,8 +135,14 @@ const data = [
     brand: "MOTOROLA",
     discount: "45%",
     rating: "4.5",
-    discription:
-      "The moto g60 enables you to capture spectacular selfies wherever you are, thanks to its 32 MP selfie camera, the Quad Pixel technology, and LED flash. Thanks to the smooth 17.2 cm (6.8) HDR10 Display, you can enjoy a lifelike experience while streaming content, gaming, and more. And, thanks to the powerful 6000 mAh battery, you can enjoy using your mobile phone for all that you need, without any low-battery interruptions for a long time.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹17,999",
 
     image: [
@@ -153,8 +177,14 @@ const data = [
     brand: "Mi",
     discount: "34%",
     rating: "4.2",
-    discription:
-      "The Mi 11X from Xiaomi is the most affordable of three new models in the Mi 11 family. It's priced a bit lower than the Mi 10T but offers plenty of updated features, most notably its Qualcomm Snapdragon 870 SoC which is only one step below the current flagship level. ",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹27,990",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kp78e4w0/mobile/b/2/u/11x-11x-mi-original-imag3hqsshfzpv4u.jpeg?q=70",
@@ -175,8 +205,14 @@ const data = [
     discount: "45%",
     id: "6",
     rating: "4.5",
-    discription:
-      "The OPPO Reno6 Pro 5G is not only easy on the eyes but also equipped with innovative features. The X-axis Linear Motor ensures immersive viewing and usage. With an ultra-slim body and lightweight construction, you can easily hold it during extended usage. You can replicate the appeal of some of your favourite images in a single click with the AI Palette feature. And, you can enjoy long-lasting usage with its 4500 mAh battery.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹55,900",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kr2e3680/mobile/l/p/k/reno6-pro-5g-cph2249-oppo-original-imag4xpc6mc62mzq.jpeg?q=70",
@@ -206,8 +242,14 @@ const data = [
     brand: "realme",
     discount: "43%",
     rating: "4.2",
-    discription:
-      "The realme 8 Pro features a Tilt-shift mode and the Tilt-shift Time Lapse video so that you can add a creative perspective to the content that you create. Thanks to the Super AMOLED Display, your favourite movies, games, and more are more bright and vivid on screen. And, thanks to the 4500 mAh battery, you can stream content, game, and more without worrying about recharging your phone.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹19,999",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kmmcrrk0/mobile/5/w/u/8-pro-rmx3081-realme-original-imagfgpgcxyjufz3.jpeg?q=70",
@@ -228,8 +270,14 @@ const data = [
     brand: "Google",
     discount: "5%",
     rating: "4.1",
-    discription:
-      "The Google Pixel 4a is more than just another smartphone for your tasks! Its HDR+ will help you take stunning photos. The Night Sight mode with astrophotography is just what you need to click those stunning images of the star-lit skies you have been meaning to capture. This phone also features apps such as the Pixel Recorder app that transcribes speech automatically.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹31,999",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kflftzk0/mobile/h/q/u/google-pixel-4a-ga02099-in-original-imafwyzmnfxzmv5q.jpeg?q=70",
@@ -258,8 +306,14 @@ const data = [
     brand: "SAMSUNG",
     discount: "32%",
     rating: "4.3",
-    discription:
-      "Bring home the Samsung Galaxy A52 smartphone to enjoy viewing sharp visuals, click clear images, record stable videos, and do more. Its rear camera setup, with OIS, helps you capture clear shots. While its 16.40 cm (6.5) FHD+ Super AMOLED display delivers vivid visuals, the Eye Comfort Shield ensures reduced blue light emissions, thereby preventing eye strain.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹27,999",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kmf7ki80/mobile/s/z/a/galaxy-a52-sm-a525fzbgins-samsung-original-imagfb4xdvtk8zzb.jpeg?q=70",
@@ -281,8 +335,14 @@ const data = [
     brand: "SAMSUNG",
     discount: "18%",
     rating: "4.5",
-    discription:
-      "The Samsung Galaxy F12 features a stylish design and innovative features so that you can enjoy using the mobile phone for all that you need. Thanks to its 6000 mAh battery, you will have a blast using your phone for a long time while you stream content and much more. It provides surround sound with Dolby Atmos so that you can delve into a world of rich music. And, it’s equipped with features that ensure the protection of your mobile phone.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹20900",
     image: [
       "https://rukminim1.flixcart.com/image/416/416/kn22m4w0/mobile/6/o/e/galaxy-f12-sm-f127gzkgins-samsung-original-imagftmhuqq3arbg.jpeg?q=70",
@@ -302,8 +362,14 @@ const data = [
     brand: "OnePlus",
     discount: "9%",
     rating: "4.8",
-    discription:
-      "OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB Storage) features a stylish design and innovative features so that you can enjoy using the mobile phone for all that you need. Thanks to its 6000 mAh battery, you will have a blast using your phone for a long time while you stream content and much more. It provides surround sound with Dolby Atmos so that you can delve into a world of rich music. And, it’s equipped with features that ensure the protection of your mobile phone.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹29900",
     image: [
       "https://m.media-amazon.com/images/I/71LRBr1aLNS._SL1500_.jpg",
@@ -336,8 +402,14 @@ const data = [
     brand: "Samsung",
     discount: "71%",
     rating: "4.1",
-    discription:
-      "The Samsung Galaxy M31 features a stylish design and innovative features so that you can enjoy using the mobile phone for all that you need. Thanks to its 6000 mAh battery, you will have a blast using your phone for a long time while you stream content and much more. It provides surround sound with Dolby Atmos so that you can delve into a world of rich music. And, it’s equipped with features that ensure the protection of your mobile phone.",
+    discription:[
+      "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "17.32 cm (6.82 inch) HD+ Display",
+    "  13MP +Depth Lens 8MP Front Camera",
+     "6000 MAh Li-ion Polymer Battery",
+   "Unisoc T610 Processor",
+    "  1 Year on Handset And 6 Months on Accessories"
+    ],
     price: "₹20900",
     image: [
       "data:image/jpeg;base64,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",
