@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
+const path = require("path");
 
 // const cookieParser = require('cookie-parser')
 
@@ -15,7 +16,7 @@ app.use(express.json());
 //linking the router files
 app.use(require("./router/router"));
 
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(path.join(__dirname + "/public")));
 
 app.get("/contact", (req, res) => { 
   res.send(`Hello Contact world from the server`);
