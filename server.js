@@ -16,13 +16,15 @@ app.use(express.json());
 //linking the router files
 app.use(require("./router/router"));
 
-if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
-}
+
 
 app.get("/contact", (req, res) => { 
   res.send(`Hello Contact world from the server`);
 });
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
