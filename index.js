@@ -15,12 +15,11 @@ app.use(express.json());
 //linking the router files
 app.use(require("./router/router"));
 
-// app.use(cookieParser())
+app.use(express.static(__dirname + "/public"));
 
-app.get("/contact", (req, res) => {
+app.get("/contact", (req, res) => { 
   res.send(`Hello Contact world from the server`);
 });
-
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
