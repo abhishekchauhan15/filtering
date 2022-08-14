@@ -5,7 +5,7 @@
     "name": "APPLE iPhone 12 Pro (Gold, 128 GB)",
     "brand": "Apple",
     "discount": "12%",
-    "rating": "4",
+    "rating": 4,
     "discription": [
       "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
       "17.32 cm (6.82 inch) HD+ Display",
@@ -31,7 +31,7 @@
     "name": "realme Narzo 30 5G (Racing Blue, 128 GB)",
     "brand": "realme",
     "discount": "21%",
-    "rating": "4",
+    "rating": 3,
     "discription": [
       "GB RAM | 64 GB ROM | Expandable Upto 256 GB",
       "17.32 cm (6.82 inch) HD+ Display",
@@ -247,7 +247,7 @@
   {
     "catogeries": "phone",
     "id": "43",
-    "name": "OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB Storage)",
+    "name": "OnePlus Nord 2 5G (Gray Sierra, 8GB RAM, 128GB)",
     "brand": "OnePlus",
     "discount": "9%",
     "rating": "3",
@@ -269,7 +269,7 @@
   {
     "catogeries": "phone",
     "id": "44",
-    "name": "Samsung Galaxy M31 (Ocean Blue, 6GB RAM, 128GB Storage)",
+    "name": "Samsung Galaxy M31 (Ocean Blue,6GB ,128GB )",
     "brand": "Samsung",
     "discount": "71%",
     "rating": "4",
