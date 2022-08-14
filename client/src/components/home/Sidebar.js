@@ -1,4 +1,4 @@
-import * as React from "react";
+import React, { useEffect, useState } from "react";
 import FormGroup from "@mui/material/FormGroup";
 import { AppBar, Toolbar, Box, Typography, styled } from "@mui/material";
 import FormControlLabel from "@mui/material/FormControlLabel";
@@ -11,12 +11,46 @@ const Component = styled(Box)`
   padding: 20px;
 `;
 
-
 const Heading = styled("h2")({
   fontSize: 20,
 });
 
-const Sidebar = () => {
+const Sidebar = ({ products, setFilterProducts }) => {
+  const [selectedBrands, setSelectedBrands] = useState([]);
+  const [selectedRatings, setSelectedRatings] = useState([]);
+
+  const toggleBrand = (brand) => {
+    if (!selectedBrands.includes(brand)) {
+      setSelectedBrands([...selectedBrands, brand]);
+    } else {
+      setSelectedBrands(selectedBrands.filter((b) => b !== brand));
+    }
+  };
+
+  const toggleRating = (rating) => {
+    if (!selectedRatings.includes(rating)) {
+      setSelectedBrands([...selectedRatings, rating]);
+    } else {
+      setSelectedRatings(selectedRatings.filter((b) => b !== rating));
+    }
+  };
+
+  useEffect(() => {
+    setFilterProducts(
+      products
+        .filter((item) => {
+          if (selectedBrands.length) return selectedBrands.includes(item.brand);
+          return true;
+        })
+
+        .filter((item) => {
+          if (selectedRatings.length)
+            return selectedRatings.includes(Math.floor(Number(item.rating)));
+          return true;
+        })
+    );
+  }, [selectedBrands, products, setFilterProducts, selectedRatings]);
+  
   return (
     <Component>
       <Heading> Filters </Heading>
@@ -35,16 +69,44 @@ const Sidebar = () => {
       />
       BRAND
       <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="Apple" />
-        <FormControlLabel control={<Checkbox />} label="Samsung" />
-        <FormControlLabel control={<Checkbox />} label="Mi" />
-        <FormControlLabel control={<Checkbox />} label="POCO" />
-        <FormControlLabel control={<Checkbox />} label="Realme" />
-        <FormControlLabel control={<Checkbox />} label="MOTOROLA" />
+        <FormControlLabel
+          onClick={() => toggleBrand("Apple")}
+          control={<Checkbox />}
+          label="Apple"
+        />
+        <FormControlLabel
+          onClick={() => toggleBrand("SAMSUNG")}
+          control={<Checkbox />}
+          label="Samsung"
+        />
+        <FormControlLabel
+          onClick={() => toggleBrand("Mi")}
+          control={<Checkbox />}
+          label="Mi"
+        />
+        <FormControlLabel
+          onClick={() => toggleBrand("POCO")}
+          control={<Checkbox />}
+          label="POCO"
+        />
+        <FormControlLabel
+          onClick={() => toggleBrand("realme")}
+          control={<Checkbox />}
+          label="Realme"
+        />
+        <FormControlLabel
+          onClick={() => toggleBrand("MOTOROLA")}
+          control={<Checkbox />}
+          label="MOTOROLA"
+        />
       </FormGroup>
       CUSTOMER RATINGS
       <FormGroup>
-        <FormControlLabel control={<Checkbox />} label="4⭐ &above" />
+        <FormControlLabel
+          onClick={() => toggleRating(4)}
+          control={<Checkbox />}
+          label="4⭐ &above"
+        />
         <FormControlLabel control={<Checkbox />} label="3⭐ &above" />
         <FormControlLabel control={<Checkbox />} label="2⭐ &above" />
         <FormControlLabel control={<Checkbox />} label="1⭐ &above" />

@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import { AppBar, Toolbar, Box, Typography, styled } from "@mui/material";
 import Sidebar from "./Sidebar";
 import Products from "./Products";
-import Footer from "../footer/Footer";
+import SortBar from "./SortBar";
 
 const Component = styled(Box)`
   background-color: #ffff;
@@ -13,18 +13,32 @@ const Component = styled(Box)`
 `;
 
 const Home = () => {
+  const [filterProducts, setFilterProducts] = useState([]);
+  const [products, setproducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const res = await fetch("/api/data");
+      const data = await res.json();
+      // console.log(data);
+      setproducts(data);
+    };
+    fetchProducts();
+  }, []);
+
   return (
     <div style={{ backgroundColor: "#F0F0F0" }}>
       <Navbar />
       <div style={{ display: "flex" }}>
         <div style={{ width: "17%" }}>
-          <Sidebar />
+          <Sidebar setFilterProducts={setFilterProducts} products={products}/>
         </div>
         <Component>
-          <Products />
+        <SortBar  setFilterProducts={setFilterProducts} products={products}/>
+          <Products  filterProducts={filterProducts} />
         </Component>
       </div>
-      <Footer />
+     
     </div>
   );
 };

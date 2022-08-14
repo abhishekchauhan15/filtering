@@ -1,3 +1,4 @@
+import { ChangeCircle } from "@mui/icons-material";
 import SearchIcon from "@mui/icons-material/Search";
 import { InputBase, Box, styled } from "@mui/material";
 
@@ -22,10 +23,14 @@ const InputSearchBase = styled(InputBase)`
   padding-left: 20px;
 `;
 
-const Search = () => {
+const Search = ({ value, changeInput }) => {
   return (
     <SearchContainer>
-      <InputSearchBase placeholder="Search for products, brands and more" />
+      <InputSearchBase
+        placeholder="Search for products, brands and more"
+        value={value}
+        onChange={changeInput}
+      />
       <SearchIconWrapper>
         <SearchIcon />
       </SearchIconWrapper>
