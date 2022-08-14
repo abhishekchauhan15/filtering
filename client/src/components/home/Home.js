@@ -18,7 +18,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await fetch("/api/data");
+      const res = await fetch("https://filteringapp.herokuapp.com/api/data");
       const data = await res.json();
       // console.log(data);
       setproducts(data);
