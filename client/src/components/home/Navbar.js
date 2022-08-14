@@ -23,7 +23,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const fetchCatogeries = async () => {
-      const res = await fetch("https://filteringapp.herokuapp.com/api/catogeries");
+      const res = await fetch("/api/catogeries");
       const data = await res.json();
       // console.log(data);
       setCatogeries(data);

@@ -9,7 +9,7 @@ const path = require("path");
 dotenv.config({ path: "./config.env" });
 const port = process.env.PORT || 8000;
 
-require("./database/connection");
+// require("./database/connection");
 // const User =require('./model/userSchema');
 
 app.use(express.json());

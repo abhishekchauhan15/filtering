@@ -18,7 +18,7 @@ const Home = () => {
 
   useEffect(() => {
     const fetchProducts = async () => {
-      const res = await fetch("https://filteringapp.herokuapp.com/api/data");
+      const res = await fetch("/api/data");
       const data = await res.json();
       // console.log(data);
       setproducts(data);
@@ -31,14 +31,13 @@ const Home = () => {
       <Navbar />
       <div style={{ display: "flex" }}>
         <div style={{ width: "17%" }}>
-          <Sidebar setFilterProducts={setFilterProducts} products={products}/>
+          <Sidebar setFilterProducts={setFilterProducts} products={products} />
         </div>
         <Component>
-        <SortBar  setFilterProducts={setFilterProducts} products={products}/>
-          <Products  filterProducts={filterProducts} />
+          <SortBar setFilterProducts={setFilterProducts} products={products} />
+          <Products filterProducts={filterProducts} />
         </Component>
       </div>
-     
     </div>
   );
 };
